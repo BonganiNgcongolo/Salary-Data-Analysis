@@ -22,12 +22,15 @@ The dataset contains 50 employee records with the following features:
 
 # Import, Explration and Cleaning.
 <img width="1285" height="562" alt="image" src="https://github.com/user-attachments/assets/c1bf2b90-8f1d-45df-b18b-2d50a89228d0" />
+
 The data was imported using pandas. The head of the datset was printed just to have a look on the columns, rows and values to see if they make sense.
 
 <img width="584" height="684" alt="image" src="https://github.com/user-attachments/assets/3deed7f2-4f8e-4d6e-b783-ca48e8cbdc18" />
+
 This was just to get a detailed description of the data, datatypes, empty/null entries. There were no null entries and all the datatypes were appropriate to their respective columns
 
 <img width="661" height="527" alt="image" src="https://github.com/user-attachments/assets/ea09ce52-ad7a-4ff7-bde6-1832dfb7a947" />
+
 This was to get a brief summary statistics of the data, to better understand all the numerical columns of this dataset. It helped me to verify the range of data points in each column and identify that there were no oultliers nor missing values. I further checked for duplicates and there were none.
 
 # Key Findings From Data Analysis.
@@ -41,20 +44,25 @@ HR: R580,616 (14.1%) - 7 employees
 
 Marketing department receives the highest budget allocation and has the most employees, suggesting it's a priority area for the organization.
 <img width="705" height="585" alt="image" src="https://github.com/user-attachments/assets/74551214-7f74-46e5-8533-eba4c0b932d8" />
+
 The Pie Chat helps in better visualising the monthly salary distribution accross deparments. This could be useful for the stakeholders in making budgets for the company, tracking the company spending and salary negotiations with new employees.
 
 The company has more Female employees (27) than Male employees (23) and the Female employess have a higher total experience than Males thus the total monthly salary is more for females than it is for males.
+
 <img width="827" height="125" alt="image" src="https://github.com/user-attachments/assets/31c1405b-7d42-4dc2-8bce-4e0ae3acfd05" />
+
 This suggests potential gender pay equity in the organization and the importance of experience in monthly salary negotiations.
 
 These are the top 5 highest earners
 <img width="646" height="213" alt="image" src="https://github.com/user-attachments/assets/0c0d8e42-57b6-4cf1-b7b7-7be365c7d25c" />
+
 1. Highest earners are spread across different departments
 2. Education level doesn't always correlate with highest pay
 3. Experience varies significantly among top earners (8-15 years)
 
 These are the bottom 5 least earners
 <img width="680" height="213" alt="image" src="https://github.com/user-attachments/assets/ba201275-0a78-4acd-ba22-393e2d1a1f35" />
+
 The same trend as the highest earners is still seen for the lowest earners, which is:
 1. Lowest earners are spread across different departments
 2. Education level doesn't always correlate with highest pay
@@ -66,11 +74,13 @@ a person with PhD, 5 years of experience cannot earn the same amount with a pers
 
 There is more evidence that the company has no business model for salaries in place.
 <img width="584" height="105" alt="image" src="https://github.com/user-attachments/assets/0f21acd5-4e26-49d6-a4ed-aac65b931c4b" /> 
+
 This is an unfair pay gap and should be corrected.
 
 # Salary prediction
 Create a machine learning model that will predict salaries. The first step is to remove the categorical columns so that only numerical data remains, since multiple linear regression requires numerical inputs, then import the LabelEncoder from sklearn to convert the categorical inputs into numerical values that the computer can interpret and use to make predictions and drop the unwanted columns.
 <img width="1285" height="791" alt="image" src="https://github.com/user-attachments/assets/2cfd0071-184b-416a-854f-60cd9aeaec17" />
+
 Model Metrics:
 
 Mean Absolute Error (MAE): 33,222.97
@@ -99,6 +109,7 @@ Department has significant impact on compensation
 Model suggests limitations in predicting salaries using only these features
 
 <img width="907" height="628" alt="image" src="https://github.com/user-attachments/assets/98b73368-6df0-474a-a68c-fda83372081b" />
+
  Actual vs Predicted Salary (Scatter Plot)
 Demonstrates poor model fit with significant scatter around the ideal prediction line, confirming the low R² score.
 
