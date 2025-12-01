@@ -36,11 +36,11 @@ This was to get a brief summary statistics of the data, to better understand all
 # Key Findings From Data Analysis.
 Total monthly salary allocation by department:
 
-Marketing: R1,253,601 (30.5%) - 13 employees
-Operations: R842,399 (20.5%) - 10 employees
-IT: R765,205 (18.6%) - 10 employees
-Finance: R672,619 (16.4%) - 10 employees
-HR: R580,616 (14.1%) - 7 employees
+1. Marketing: R1,253,601 (30.5%) - 13 employees
+2. Operations: R842,399 (20.5%) - 10 employees
+3. IT: R765,205 (18.6%) - 10 employees
+4. Finance: R672,619 (16.4%) - 10 employees
+5. HR: R580,616 (14.1%) - 7 employees
 
 Marketing department receives the highest budget allocation and has the most employees, suggesting it's a priority area for the organization.
 <img width="705" height="585" alt="image" src="https://github.com/user-attachments/assets/74551214-7f74-46e5-8533-eba4c0b932d8" />
